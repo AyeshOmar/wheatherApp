@@ -1,0 +1,67 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calculatorTip.css">
+	<link rel="stylesheet" type="text/javascript" href="calculatorTip.js">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="calculatorTip.js"></script>
+	<title>TipCalculator</title>
+</head>
+
+
+<body>
+
+
+	<div class="bigBlock">
+
+
+		<div class="one">
+
+			<p style="font-size: 16px; font-family: arial;">Bill total</p>
+			<div class="dolarFlex">
+			<div>$</div>
+			<input onkeyup="total()"  id="billInput" type="text" class="inputTotal" placeholder="0.00">	
+			</div>		
+		</div>
+
+		<div class="two">
+
+			<p>Tip</p>
+			<div class="mileFlex">
+			<div>%</div>
+			<input onkeyup="total()"  id="TipInput" type="text" class="inputTip" placeholder=" 10">
+			</div>			
+		</div>
+ 
+
+
+		<div class="three">
+           <div class="NbrPeople">
+           		<p style="font-size: 16px; font-family: arial;">People</p>
+           		<div class="flexBtn">
+           			<button onclick="accrementation()"  id="plas" class="plus">+</button>
+           	     	<div class="hedhi" id="nbr">1</div>
+           		    <button onclick="deccrementation()" id="mons" class="moins">-</button>
+           		</div>
+           		
+           	
+           </div>
+
+           <div>
+           	<p style="font-size: 16px; font-family: arial;">Total per Person</p>
+			<div id="totalPerPersone" class="TotalperPerson"><span>$</span>0.00</div>
+           </div>
+
+           
+						
+		</div>
+		<div class="ref">
+           	<button class="btnRefrech" onclick="refrech()">Refrech</button>
+           </div>
+
+	</div>
+
+</body>
+</html>
