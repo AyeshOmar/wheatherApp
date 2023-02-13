@@ -18,9 +18,9 @@ const hetDIV4 =document.getElementById('div4')
 		console.log(response.main.temp)
    DivTitle.innerText=response.name
   hetDIV1.innerText=`${response.weather[0].description}`
-  hetDIV2.innerText=`Temp:${response.main.temp}°`
-  hetDIV3.innerText=`Min Temp:${response.main.temp_min}°`
-  hetDIV4.innerText=`Max Temp:${response.main.temp_max}°`
+  hetDIV2.innerText=`${response.main.temp}`
+  hetDIV3.innerText=`${response.main.temp_min}`
+  hetDIV4.innerText=`${response.main.temp_max}`
 	
 
 
