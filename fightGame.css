@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.wrapper{
+	height: 1000px;
+
+   width: 700px ;
+		margin: 0 auto;
+	
+}
+body{
+	 font-family: 'VT323', monospace;
+	 width: 100%;
+  height: 100vh;
+}
+.block1Grid{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	justify-content: center;
+	background-image: url("image/fightPhotoGame.gif");
+}
+.player{
+	
+padding-left: 60px;
+	}
+
+	.nameOmar{
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+
+	}
+	.namenasredin{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+	}
+
+	/*.Grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-gap:50px;
+		column-gap: 200px;
+	}*/
+	
+	.block2Info{
+		
+
+		margin-left: 40px;
+		width: 600px;
+		height: 400px;
+	}
+
+	
+
+
+	.flxflx1{
+	display: grid;
+	grid-template-columns: 50px 100px;
+	margin: 10px;
+	}
+
+.flex2,
+.flex1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.flex1{
+	position: relative;
+}
+
+.Simulate{
+	position: absolute;
+	background: #02cf02;
+	color: white;
+	top: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+    left: 230px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.div1{
+	background-color:yellow ;
+	border: none;
+	border-radius: 30px;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+.div2{
+	background-color:skyblue;
+	border: none;
+	border-radius: 30px;
+	font-size: 17px;
+	font-weight: bold;
+	
+}
+
+.text{
+font-weight: bold;
+font-size: 17px;
+}
+
+.divInfoPlayer1{
+	margin-left: 65px;
+
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.divInfoPlayer2{
+	
+
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.Result{
+	margin-top: -30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	 color : #3dff3d;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.BtnDiv{
+	margin-top: 0px;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.BtnReset{
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 40px;
+	border: 3px solid black;
+	background-color: orangered;
+
+}

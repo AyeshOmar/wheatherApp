@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="fightGame.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fight Game</title>
+</head>
+
+
+<body>
+
+<div class="wrapper">
+
+
+<div class="block1Grid">
+	
+	<div class="player">
+
+		<p id="DivNamePlayer1" class="nameOmar">Player1</p>
+		<img id="p1" width="150px"
+      src="https://i.gifer.com/origin/00/0019f6845ceaa9347b881ccbe8f5644a_w200.gif"
+      />
+	</div>
+
+	<div  class="player" >
+		<p id="DivNamePlayer2" class="namenasredin">Player2</p>
+		 <img 
+        id="p2" width="150px" 
+        src="https://i.imgur.com/Z0QCi47.gif"
+      />
+	</div>
+ 
+
+
+</div>
+
+
+<div class="block2Info">
+	
+<div class="flex1">
+
+
+
+
+<div class="flxflx1">
+	<p class="text">Q:</p>
+<button id="P1Attack" class="div1" >Attack</button>
+</div>
+
+<div id="playy" class="Simulate">
+	Simulate
+</div>
+
+<div class="flxflx1">
+	<p class="text">P:</p>
+<button id="P2Attack" class="div1">Attack</button>
+</div>
+
+</div>
+
+<div class="flex2">
+	
+
+
+<div class="flxflx1">
+	<p class="text">A:</p>
+<button onclick="" id="P1Health" class="div2">Heal</button>
+</div>
+
+<div class="flxflx1">
+	<p class="text">L:</p>
+<button id="P2Health" class="div2">Heal</button>
+
+</div>
+</div>
+
+
+
+
+
+<div class="flex2">
+	
+
+
+<div id="score1" class="divInfoPlayer1">
+	
+     100
+</div>
+
+<div  id="score2" class="divInfoPlayer2">
+	100
+
+</div>
+</div>
+
+
+	
+<div id="result" class="Result">
+	
+	
+</div>
+
+<div class="BtnDiv">
+	<button id="BtnReset" class="BtnReset">Reset</button>
+</div>
+
+</div>
+
+
+<audio src="image/quickhit.mp3"
+style="display: none"
+type="audio/mpeg"
+id="punch">
+</audio>
+
+<audio src="image/fastheal.mp3"
+style="display: none"
+type="audio/mpeg"
+id="fastheal">
+</audio>
+<audio src="image/fastpunch.mp3"
+style="display: none"
+type="audio/mpeg"
+id="fastpunch">
+</audio>
+<audio src="image/quickheal.mp3"
+style="display: none"
+type="audio/mpeg"
+id="quick">
+</audio>
+<audio src="image/vectory.mp3"
+style="display: none"
+type="audio/mpeg"
+id="victory">
+</audio>
+ 
+
+
+
+
+	
+</div>
+
+
+	
+
+<script src="fightGame.js"></script>
+</body>
+</html>
